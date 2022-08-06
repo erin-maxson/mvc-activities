@@ -1,5 +1,5 @@
 <!-- TODO: Add a comment indicating how this file fits into the MVC framework (is it a Model, a View, or a Controller?) and what it is responsible for handling. -->
-
+{{!-- This is a view that allows you to see the data rendered from the model through the controller --}}
 <head>
   <meta charset="UTF-8">
   <title>Potluck Party</title>
@@ -16,7 +16,9 @@
     </header>
       <main class="container container-fluid mt-5">
         <!-- TODO: Add a comment describing what the following line of code is doing. -->
+        {{!-- this is creating a container for the controller to append the model data --}}
         <!-- What should we expect to see when visiting http://localhost:3001/ in the browser? -->
+        {{!-- you should see all of the model data rendered --}}
         {{{ body }}}
       </main>
   </div>
